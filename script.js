@@ -68,8 +68,8 @@ document.querySelector('.check').addEventListener('click', function () {
     }
     // document.querySelector('.score').textContent--;
   } else {
-    //document.querySelector('.message').textContent = 'You are near dear😍';
-    displayMessage('You are near dear😍');
+    //document.querySelector('.message').textContent = 'You are close!😍';
+    displayMessage('You are close!😍');
     if (score > 1) {
       score--;
       document.querySelector('.score').textContent = score;
